@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.672725">
+<testcase classname="DrievOn Login Feature" name="DriveOn Login Test scenario" time="31.672725">
+<system-out><![CDATA[Given admin is on login page................................................passed
+When verify the URL.........................................................passed
+Then enter username and password............................................passed
+Then click on login button..................................................passed
+Then verify the home page...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

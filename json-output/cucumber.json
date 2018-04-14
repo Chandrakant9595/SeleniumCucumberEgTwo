@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "DriveOn Login Test scenario",
+        "description": "",
+        "id": "drievon-login-feature;driveon-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20581304720,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "admin is on login page",
+            "match": {
+              "location": "loginStepDefination.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18887009,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify the URL",
+            "match": {
+              "location": "loginStepDefination.verify_the_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237664439,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter username and password",
+            "match": {
+              "location": "loginStepDefination.enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10816240945,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "loginStepDefination.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18627612,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the home page",
+            "match": {
+              "location": "loginStepDefination.verify_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DrievOn Login Feature",
+    "description": "",
+    "id": "drievon-login-feature",
+    "keyword": "Feature",
+    "uri": "/home/nadsoft/workspace/ExampleOfCucumber/src/main/java/features/login.feature"
+  }
+]
